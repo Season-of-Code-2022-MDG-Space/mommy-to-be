@@ -7,6 +7,6 @@ using namespace std;
 int main()
 {
     int n;
-    int b;
+    int b = n;
     return 0;
 }
