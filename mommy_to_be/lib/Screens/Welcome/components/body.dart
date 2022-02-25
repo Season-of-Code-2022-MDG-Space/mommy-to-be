@@ -12,8 +12,6 @@ class Body extends StatelessWidget {
       child: Column(
         children: <Widget>[
           Positioned(
-            bottom: 0,
-            right: 0,
             child: ClipRRect(
               child: FlatButton(
                 padding:
