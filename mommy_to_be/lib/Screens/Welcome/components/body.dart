@@ -1,39 +1,16 @@
 // ignore_for_file: deprecated_member_use
 
 import 'package:flutter/material.dart';
+import 'package:mommy_to_be/Screens/Welcome/components/background.dart';
 
 class Body extends StatelessWidget {
   const Body({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    Size size =
-        MediaQuery.of(context).size; // For total height and width of screen
-
-    return Container(
-      decoration: const BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage("assets/images/Android Small - 11 (1).png"),
-          fit: BoxFit.cover,
-        ),
-      ),
-      height: size.height,
-      width: double.infinity,
-      child: Stack(
-        alignment: Alignment.center,
+    return Background(
+      child: Column(
         children: <Widget>[
-          Positioned(
-            top: 100,
-            child: Image.asset(
-              "assets/images/Hey MOMMY!.png",
-            ),
-          ),
-          Positioned(
-            top: 250,
-            child: Image.asset(
-              "assets/images/Are you ready to experience something beautiful_.png",
-            ),
-          ),
           Positioned(
             bottom: 0,
             right: 0,
