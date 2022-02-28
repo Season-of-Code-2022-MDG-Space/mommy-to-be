@@ -1,0 +1,482 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp2());
+}
+
+class MyApp2 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: MyHomePage2(),
+    );
+  }
+}
+
+class MyHomePage2 extends StatefulWidget {
+  @override
+  _MyHomePageState2 createState() => _MyHomePageState2();
+}
+
+class _MyHomePageState2 extends State<MyHomePage2> {
+  bool eyepressed = true;
+
+  TextEditingController LoginIDcontroller = TextEditingController();
+  TextEditingController Passwordcontroller = TextEditingController();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.blueGrey[200],
+      body: SingleChildScrollView(
+        child: SafeArea(
+          child: Padding(
+            padding: EdgeInsets.all(20),
+            child: Column(
+              children: [
+                Center(
+                  child: new SizedBox(
+                    height: 250,
+                    width: 250,
+                    child: Image(
+                      image: NetworkImage(
+                          'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Grey_Square.svg/2048px-Grey_Square.svg.png'),
+                    ),
+                  ),
+                ),
+                Center(
+                  child: new SizedBox(
+                    width: 200,
+                    child: TextField(
+                      controller: LoginIDcontroller,
+                      decoration: InputDecoration(
+                        hintText: 'LOGIN ID',
+                      ),
+                    ),
+                  ),
+                ),
+                Center(
+                  child: new SizedBox(
+                    width: 200,
+                    child: TextField(
+                      controller: Passwordcontroller,
+                      decoration: InputDecoration(
+                        hintText: 'Password',
+                        suffixIcon: IconButton(
+                            icon: Icon(Icons.remove_red_eye),
+                            onPressed: () {
+                              setState(() {
+                                eyepressed = !eyepressed;
+                              });
+                            }),
+                      ),
+                      obscureText: eyepressed,
+                    ),
+                  ),
+                ),
+                Row(
+                  children: [
+                    new SizedBox(
+                      width: 150,
+                    ),
+                    TextButton(
+                      onPressed: null,
+                      child: Text(
+                        'Forgot Password?',
+                        style: TextStyle(
+                          color: Colors.pink,
+                          decoration: TextDecoration.underline,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+                new SizedBox(
+                  height: 50,
+                ),
+                new SizedBox(
+                  height: 40,
+                  width: 200,
+                  child: ElevatedButton(
+                    style: ButtonStyle(
+                      backgroundColor:
+                          MaterialStateProperty.all<Color>(Colors.white),
+                      shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                        RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(40),
+                        ),
+                      ),
+                    ),
+                    onPressed: null,
+                    child: const Text(
+                      'Login',
+                      style: TextStyle(
+                        fontSize: 15,
+                        color: Colors.black,
+                      ),
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsets.all(10),
+                  child: Text('Or'),
+                ),
+                new SizedBox(
+                  height: 40,
+                  width: 200,
+                  child: ElevatedButton(
+                    style: ButtonStyle(
+                      backgroundColor:
+                          MaterialStateProperty.all<Color>(Colors.white),
+                      shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                        RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(40),
+                        ),
+                      ),
+                    ),
+                    onPressed: null,
+                    child: const Text(
+                      'Login with Google',
+                      style: TextStyle(
+                        fontSize: 15,
+                        color: Colors.black,
+                      ),
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  height: 50,
+                ),
+                TextButton(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => MyHomePage()),
+                    );
+                  },
+                  child: Text(
+                    "Don't have an account? Create one",
+                    style: TextStyle(
+                      color: Colors.pink,
+                      decoration: TextDecoration.underline,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: MyHomePage(),
+    );
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  @override
+  _MyHomePageState createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  bool eyepressed = true;
+
+  TextEditingController Usernamecontroller = TextEditingController();
+  TextEditingController Namecontroller = TextEditingController();
+  TextEditingController Emailcontroller = TextEditingController();
+  TextEditingController Passwordcontroller = TextEditingController();
+  TextEditingController Phonenocontroller = TextEditingController();
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        backgroundColor: Colors.blueGrey[200],
+        body: SingleChildScrollView(
+          child: Column(
+            children: [
+              Container(
+                height: 15,
+              ),
+              Row(
+                children: [
+                  new SizedBox(
+                    height: 50,
+                    width: 109,
+                    child: ElevatedButton(
+                      style: ButtonStyle(
+                        backgroundColor:
+                            MaterialStateProperty.all<Color>(Colors.white),
+                        shape:
+                            MaterialStateProperty.all<RoundedRectangleBorder>(
+                          RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(40),
+                          ),
+                        ),
+                      ),
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => MyHomePage2()),
+                        );
+                      },
+                      child: const Text(
+                        'BACK',
+                        style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.black,
+                        ),
+                      ),
+                    ),
+                  ),
+                  Container(),
+                ],
+              ),
+              SafeArea(
+                child: Padding(
+                  padding: EdgeInsets.all(20),
+                  child: Column(
+                    children: [
+                      Container(
+                        child: Center(
+                          child: Text(
+                            'Sign Up',
+                            textScaleFactor: 4,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        height: 15,
+                      ),
+                      Container(
+                        child: TextField(
+                          controller: Usernamecontroller,
+                          style: TextStyle(fontSize: 20, height: 1),
+                          decoration: InputDecoration(
+                            hintText: 'Username',
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(50),
+                            ),
+                            fillColor: Colors.blueGrey[100],
+                            filled: true,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        height: 15,
+                      ),
+                      Container(
+                        child: TextField(
+                          controller: Namecontroller,
+                          style: TextStyle(fontSize: 20, height: 1),
+                          decoration: InputDecoration(
+                            hintText: 'Name',
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(50),
+                            ),
+                            fillColor: Colors.blueGrey[100],
+                            filled: true,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        height: 15,
+                      ),
+                      Container(
+                        child: TextField(
+                          controller: Emailcontroller,
+                          style: TextStyle(fontSize: 20, height: 1),
+                          decoration: InputDecoration(
+                            hintText: 'Email',
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(50),
+                            ),
+                            fillColor: Colors.blueGrey[100],
+                            filled: true,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        height: 15,
+                      ),
+                      Container(
+                        child: TextField(
+                          controller: Passwordcontroller,
+                          style: TextStyle(
+                            fontSize: 20,
+                            height: 1,
+                          ),
+                          decoration: InputDecoration(
+                            hintText: 'Password',
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(50),
+                            ),
+                            fillColor: Colors.blueGrey[100],
+                            filled: true,
+                            suffixIcon: IconButton(
+                                icon: Icon(Icons.remove_red_eye),
+                                onPressed: () {
+                                  setState(() {
+                                    eyepressed = !eyepressed;
+                                  });
+                                }),
+                          ),
+                          obscureText: eyepressed,
+                        ),
+                      ),
+                      Container(
+                        height: 15,
+                      ),
+                      Container(
+                        child: TextField(
+                          controller: Phonenocontroller,
+                          style: TextStyle(fontSize: 20, height: 1),
+                          decoration: InputDecoration(
+                            hintText: 'Phone No.',
+                            border: OutlineInputBorder(
+                              borderRadius: BorderRadius.circular(50),
+                            ),
+                            fillColor: Colors.blueGrey[100],
+                            filled: true,
+                          ),
+                        ),
+                      ),
+                      Container(
+                        height: 15,
+                      ),
+                      new SizedBox(
+                        height: 50,
+                        width: 200,
+                        child: ElevatedButton(
+                          style: ButtonStyle(
+                            backgroundColor:
+                                MaterialStateProperty.all<Color>(Colors.white),
+                            shape: MaterialStateProperty.all<
+                                RoundedRectangleBorder>(
+                              RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(40),
+                              ),
+                            ),
+                          ),
+                          onPressed: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => MyHomePage3()),
+                            );
+                          },
+                          child: const Text('Submit',
+                            style: TextStyle(
+                              fontSize: 30,
+                              color: Colors.black,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ));
+  }
+}
+
+class MyApp3 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: MyHomePage3(),
+    );
+  }
+}
+
+class MyHomePage3 extends StatefulWidget {
+  @override
+  _MyHomePageState3 createState() => _MyHomePageState3();
+}
+
+class _MyHomePageState3 extends State<MyHomePage3> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Column(
+        children: [
+          new SizedBox(
+            height: 100,
+          ),
+          Center(
+            child: new SizedBox(
+              height: 200,
+              width: 300,
+              child: ElevatedButton(
+                style: ButtonStyle(
+                  backgroundColor:
+                      MaterialStateProperty.all<Color>(Colors.white),
+                  shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                    RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(40),
+                    ),
+                  ),
+                ),
+                onPressed: null,
+                child: Row(
+                  children: [
+                    Text(
+                      ' Dear Mother,\n Thankyou for registering \n on our app!\n We hope that you have an \n amazing experience with \n "MOMMY-TO-BE !"',
+                      style: TextStyle(
+                        fontSize: 15,
+                        color: Colors.black,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+          ),
+          new SizedBox(
+            height: 100,
+          ),
+          Center(
+            child: new SizedBox(
+              height: 40,
+              width: 200,
+              child: ElevatedButton(
+                style: ButtonStyle(
+                  backgroundColor:
+                      MaterialStateProperty.all<Color>(Colors.white),
+                  shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                    RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(40),
+                    ),
+                  ),
+                ),
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => MyHomePage2()),
+                  );
+                },
+                child: const Text(
+                  'NEXT',
+                  style: TextStyle(
+                    fontSize: 15,
+                    color: Colors.black,
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
