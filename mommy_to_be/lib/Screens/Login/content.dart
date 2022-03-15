@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:mommy_to_be/Screens/Sign%20Up/sign_up_screen.dart';
 
 class ContentBox extends StatefulWidget {
+  const ContentBox({Key? key}) : super(key: key);
+
   @override
   _MyHomePageState2 createState() => _MyHomePageState2();
 }
@@ -19,11 +21,11 @@ class _MyHomePageState2 extends State<ContentBox> {
       body: SingleChildScrollView(
         child: SafeArea(
           child: Padding(
-            padding: EdgeInsets.all(20),
+            padding: const EdgeInsets.all(20),
             child: Column(
               children: [
-                Center(
-                  child: new SizedBox(
+                const Center(
+                  child: SizedBox(
                     height: 250,
                     width: 250,
                     child: Image(
@@ -33,18 +35,18 @@ class _MyHomePageState2 extends State<ContentBox> {
                   ),
                 ),
                 Center(
-                  child: new SizedBox(
+                  child: SizedBox(
                     width: 200,
                     child: TextField(
                       controller: LoginIDcontroller,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         hintText: 'LOGIN ID',
                       ),
                     ),
                   ),
                 ),
                 Center(
-                  child: new SizedBox(
+                  child: SizedBox(
                     width: 200,
                     child: TextField(
                       controller: Passwordcontroller,
@@ -63,8 +65,9 @@ class _MyHomePageState2 extends State<ContentBox> {
                   ),
                 ),
                 Row(
-                  children: [
-                    new SizedBox(
+                  children: const [
+
+                    SizedBox(
                       width: 150,
                     ),
                     TextButton(
@@ -79,10 +82,10 @@ class _MyHomePageState2 extends State<ContentBox> {
                     ),
                   ],
                 ),
-                new SizedBox(
+                const SizedBox(
                   height: 50,
                 ),
-                new SizedBox(
+                SizedBox(
                   height: 40,
                   width: 200,
                   child: ElevatedButton(
@@ -105,11 +108,11 @@ class _MyHomePageState2 extends State<ContentBox> {
                     ),
                   ),
                 ),
-                Padding(
+                const Padding(
                   padding: EdgeInsets.all(10),
                   child: Text('Or'),
                 ),
-                new SizedBox(
+                SizedBox(
                   height: 40,
                   width: 200,
                   child: ElevatedButton(
@@ -132,7 +135,7 @@ class _MyHomePageState2 extends State<ContentBox> {
                     ),
                   ),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 50,
                 ),
                 TextButton(
@@ -142,7 +145,7 @@ class _MyHomePageState2 extends State<ContentBox> {
                       MaterialPageRoute(builder: (context) => SignupScreen()),
                     );
                   },
-                  child: Text(
+                  child: const Text(
                     "Don't have an account? Create one",
                     style: TextStyle(
                       color: Colors.pink,

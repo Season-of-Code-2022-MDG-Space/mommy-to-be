@@ -9,13 +9,14 @@ class _MyHomePageState3 extends State<DisplayPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color.fromARGB(206, 173, 58, 208),
       body: Column(
         children: [
-          new SizedBox(
+          const SizedBox(
             height: 100,
           ),
           Center(
-            child: new SizedBox(
+            child: SizedBox(
               height: 200,
               width: 300,
               child: ElevatedButton(
@@ -30,7 +31,7 @@ class _MyHomePageState3 extends State<DisplayPage> {
                 ),
                 onPressed: null,
                 child: Row(
-                  children: [
+                  children: const [
                     Text(
                       ' Dear Mother,\n Thankyou for registering \n on our app!\n We hope that you have an \n amazing experience with \n "MOMMY-TO-BE !"',
                       style: TextStyle(
@@ -43,11 +44,11 @@ class _MyHomePageState3 extends State<DisplayPage> {
               ),
             ),
           ),
-          new SizedBox(
+          const SizedBox(
             height: 100,
           ),
           Center(
-            child: new SizedBox(
+            child: SizedBox(
               height: 40,
               width: 200,
               child: ElevatedButton(

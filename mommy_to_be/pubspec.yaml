@@ -63,8 +63,14 @@ flutter:
    - assets/icons/
 
   #   - images/a_dot_ham.jpeg
-
-  # An image asset can refer to one or more resolution-specific "variants", see
+  fonts:
+    - family: Akaya_Telivigala
+      fonts:
+        - asset: assets/Fonts/AkayaTelivigala-Regular.ttf
+    - family: Pacifico
+      fonts:
+        - asset: assets/Fonts/Pacifico-Regular.ttf
+      # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
   # For details regarding adding assets from package dependencies, see

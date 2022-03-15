@@ -53,7 +53,7 @@ class MyHomePageState extends State<Content> {
                     child: const Text(
                       'BACK',
                       style: TextStyle(
-                        fontSize: 30,
+                        fontSize: 20,
                         color: Colors.black,
                       ),
                     ),
@@ -123,7 +123,7 @@ class MyHomePageState extends State<Content> {
                     ),
                     TextField(
                       controller: Passwordcontroller,
-                      style: TextStyle(
+                      style: const TextStyle(
                         fontSize: 20,
                         height: 1,
                       ),
@@ -162,7 +162,7 @@ class MyHomePageState extends State<Content> {
                     Container(
                       height: 15,
                     ),
-                    new SizedBox(
+                    SizedBox(
                       height: 50,
                       width: 200,
                       child: ElevatedButton(

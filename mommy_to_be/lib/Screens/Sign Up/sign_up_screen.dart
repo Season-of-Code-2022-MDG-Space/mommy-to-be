@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'content_box.dart';
 
 class SignupScreen extends StatelessWidget {
@@ -6,7 +7,7 @@ class SignupScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Content(),
     );
   }

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/kartikaggarwal/Desktop/Git/mommy_to_be/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/kartikaggarwal/Desktop/Git/mommy_to_be/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
