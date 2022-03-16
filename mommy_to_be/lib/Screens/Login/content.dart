@@ -1,5 +1,8 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:mommy_to_be/Screens/Sign%20Up/sign_up_screen.dart';
+
+import '../display_page.dart';
 
 class ContentBox extends StatefulWidget {
   const ContentBox({Key? key}) : super(key: key);
@@ -66,7 +69,6 @@ class _MyHomePageState2 extends State<ContentBox> {
                 ),
                 Row(
                   children: const [
-
                     SizedBox(
                       width: 150,
                     ),
@@ -98,7 +100,21 @@ class _MyHomePageState2 extends State<ContentBox> {
                         ),
                       ),
                     ),
-                    onPressed: null,
+                    onPressed: () {
+                      FirebaseAuth.instance
+                          .signInWithEmailAndPassword(
+                              email: LoginIDcontroller.text,
+                              password: Passwordcontroller.text)
+                          .then((value) {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => DisplayPage()),
+                        );
+                      }).onError((error, stackTrace) {
+                        print("Error ${error.toString()}");
+                      });
+                    },
                     child: const Text(
                       'Login',
                       style: TextStyle(

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "282675577257",
+    "project_id": "flutter-login-ba671",
+    "storage_bucket": "flutter-login-ba671.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282675577257:android:d4f92fadebb89090f1c4b8",
+        "android_client_info": {
+          "package_name": "jamesthomso.com.mommy_to_be"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282675577257-khcboc35h7vgpahk9nl86jg4tpmioo88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGKBMc5nsdicY0_L0eoZTgoOBBQRTPwEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282675577257-khcboc35h7vgpahk9nl86jg4tpmioo88.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

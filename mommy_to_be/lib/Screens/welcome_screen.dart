@@ -21,7 +21,7 @@ class WelcomeScreen extends StatelessWidget {
             child: Column(
               // mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
-              children: <Widget>[
+              children: const <Widget>[
                 Text(
                   '\nHEY MOMMY!',
                   textAlign: TextAlign.center,
@@ -39,39 +39,38 @@ class WelcomeScreen extends StatelessWidget {
                   style: TextStyle(
                     fontFamily: "Akaya_Telivigala",
                     color: Colors.white,
-                    fontSize: 38,
+                    fontSize: 35,
                   ),
                 ),
               ],
             ),
           ),
-          Positioned(
-            bottom: 0,
-            right: 0,
-            // ignore: deprecated_member_use
-            child: FlatButton(
-              padding: const EdgeInsets.all(20.0),
-              color: const Color.fromARGB(244, 250, 247, 247),
-              shape: const CircleBorder(),
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: ((context) => LoginScreen()),
-                  ),
-                );
-              },
-              child: const Text(
-                "yes",
-                style: TextStyle(
-                  color: Colors.black,
-                  fontSize: 30,
-                  fontFamily: 'Pacifico',
+        ],
+      ),
+      floatingActionButton: Container(
+        height: 80.0,
+        child: FittedBox(
+          child: FloatingActionButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: ((context) => LoginScreen()),
                 ),
+              );
+            },
+            child: const Text(
+              "yes",
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 20,
+                fontFamily: 'Pacifico',
               ),
             ),
+            backgroundColor: Colors.white,
+            elevation: 5.0,
           ),
-        ],
+        ),
       ),
     );
   }

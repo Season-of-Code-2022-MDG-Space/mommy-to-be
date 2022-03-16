@@ -1,3 +1,5 @@
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:mommy_to_be/Screens/Login/login_screen.dart';
 
@@ -65,135 +67,142 @@ class MyHomePageState extends State<Content> {
             SafeArea(
               child: Padding(
                 padding: EdgeInsets.all(20),
-                child: Column(
-                  children: [
-                    const Center(
-                      child: Text(
-                        'Sign Up',
-                        textScaleFactor: 4,
+                child: Column(children: [
+                  const Center(
+                    child: Text(
+                      'Sign Up',
+                      textScaleFactor: 4,
+                    ),
+                  ),
+                  Container(
+                    height: 15,
+                  ),
+                  TextField(
+                    controller: Usernamecontroller,
+                    style: TextStyle(fontSize: 20, height: 1),
+                    decoration: InputDecoration(
+                      hintText: 'Username',
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(50),
                       ),
+                      fillColor: Colors.blueGrey[100],
+                      filled: true,
                     ),
-                    Container(
-                      height: 15,
-                    ),
-                    TextField(
-                      controller: Usernamecontroller,
-                      style: TextStyle(fontSize: 20, height: 1),
-                      decoration: InputDecoration(
-                        hintText: 'Username',
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(50),
-                        ),
-                        fillColor: Colors.blueGrey[100],
-                        filled: true,
+                  ),
+                  Container(
+                    height: 15,
+                  ),
+                  TextField(
+                    controller: Namecontroller,
+                    style: const TextStyle(fontSize: 20, height: 1),
+                    decoration: InputDecoration(
+                      hintText: 'Name',
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(50),
                       ),
+                      fillColor: Colors.blueGrey[100],
+                      filled: true,
                     ),
-                    Container(
-                      height: 15,
-                    ),
-                    TextField(
-                      controller: Namecontroller,
-                      style: const TextStyle(fontSize: 20, height: 1),
-                      decoration: InputDecoration(
-                        hintText: 'Name',
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(50),
-                        ),
-                        fillColor: Colors.blueGrey[100],
-                        filled: true,
+                  ),
+                  Container(
+                    height: 15,
+                  ),
+                  TextField(
+                    controller: Emailcontroller,
+                    style: const TextStyle(fontSize: 20, height: 1),
+                    decoration: InputDecoration(
+                      hintText: 'Email',
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(50),
                       ),
+                      fillColor: Colors.blueGrey[100],
+                      filled: true,
                     ),
-                    Container(
-                      height: 15,
+                  ),
+                  Container(
+                    height: 15,
+                  ),
+                  TextField(
+                    controller: Passwordcontroller,
+                    style: const TextStyle(
+                      fontSize: 20,
+                      height: 1,
                     ),
-                    TextField(
-                      controller: Emailcontroller,
-                      style: const TextStyle(fontSize: 20, height: 1),
-                      decoration: InputDecoration(
-                        hintText: 'Email',
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(50),
-                        ),
-                        fillColor: Colors.blueGrey[100],
-                        filled: true,
+                    decoration: InputDecoration(
+                      hintText: 'Password',
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(50),
                       ),
+                      fillColor: Colors.blueGrey[100],
+                      filled: true,
+                      suffixIcon: IconButton(
+                          icon: Icon(Icons.remove_red_eye),
+                          onPressed: () {
+                            setState(() {
+                              eyepressed = !eyepressed;
+                            });
+                          }),
                     ),
-                    Container(
-                      height: 15,
-                    ),
-                    TextField(
-                      controller: Passwordcontroller,
-                      style: const TextStyle(
-                        fontSize: 20,
-                        height: 1,
+                    obscureText: eyepressed,
+                  ),
+                  Container(
+                    height: 15,
+                  ),
+                  TextField(
+                    controller: Phonenocontroller,
+                    style: TextStyle(fontSize: 20, height: 1),
+                    decoration: InputDecoration(
+                      hintText: 'Phone No.',
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(50),
                       ),
-                      decoration: InputDecoration(
-                        hintText: 'Password',
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(50),
-                        ),
-                        fillColor: Colors.blueGrey[100],
-                        filled: true,
-                        suffixIcon: IconButton(
-                            icon: Icon(Icons.remove_red_eye),
-                            onPressed: () {
-                              setState(() {
-                                eyepressed = !eyepressed;
-                              });
-                            }),
-                      ),
-                      obscureText: eyepressed,
+                      fillColor: Colors.blueGrey[100],
+                      filled: true,
                     ),
-                    Container(
-                      height: 15,
-                    ),
-                    TextField(
-                      controller: Phonenocontroller,
-                      style: TextStyle(fontSize: 20, height: 1),
-                      decoration: InputDecoration(
-                        hintText: 'Phone No.',
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(50),
-                        ),
-                        fillColor: Colors.blueGrey[100],
-                        filled: true,
-                      ),
-                    ),
-                    Container(
-                      height: 15,
-                    ),
-                    SizedBox(
-                      height: 50,
-                      width: 200,
-                      child: ElevatedButton(
-                        style: ButtonStyle(
-                          backgroundColor:
-                              MaterialStateProperty.all<Color>(Colors.white),
-                          shape:
-                              MaterialStateProperty.all<RoundedRectangleBorder>(
-                            RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(40),
-                            ),
+                  ),
+                  Container(
+                    height: 15,
+                  ),
+                  SizedBox(
+                    height: 50,
+                    width: 200,
+                    child: ElevatedButton(
+                      style: ButtonStyle(
+                        backgroundColor:
+                            MaterialStateProperty.all<Color>(Colors.white),
+                        shape:
+                            MaterialStateProperty.all<RoundedRectangleBorder>(
+                          RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(40),
                           ),
                         ),
-                        onPressed: () {
+                      ),
+                      onPressed: () {
+                        FirebaseAuth.instance
+                            .createUserWithEmailAndPassword(
+                                email: Emailcontroller.text,
+                                password: Passwordcontroller.text)
+                            .then((value) {
+                          print("Created New Account");
                           Navigator.push(
                             context,
                             MaterialPageRoute(
                                 builder: (context) => DisplayPage()),
                           );
-                        },
-                        child: const Text(
-                          'Submit',
-                          style: TextStyle(
-                            fontSize: 30,
-                            color: Colors.black,
-                          ),
+                        }).onError((error, stackTrace) {
+                          print("Error ${error.toString()}");
+                        });
+                      },
+                      child: const Text(
+                        'Submit',
+                        style: TextStyle(
+                          fontSize: 30,
+                          color: Colors.black,
                         ),
                       ),
                     ),
-                  ],
-                ),
+                  ),
+                ]),
               ),
             ),
           ],
