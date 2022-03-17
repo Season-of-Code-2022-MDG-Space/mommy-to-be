@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:mommy_to_be/Screens/Login/ResetScreen.dart';
 import 'package:mommy_to_be/Screens/Sign%20Up/sign_up_screen.dart';
 
 import '../display_page.dart';
@@ -20,38 +21,51 @@ class _MyHomePageState2 extends State<ContentBox> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurple[100],
+      backgroundColor: Colors.deepPurpleAccent[100],
       body: SingleChildScrollView(
         child: SafeArea(
           child: Padding(
             padding: const EdgeInsets.all(20),
             child: Column(
               children: [
-                const Center(
+                Center(
                   child: SizedBox(
-                    height: 250,
-                    width: 250,
-                    child: Image(
-                      image: NetworkImage(
-                          'https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Grey_Square.svg/2048px-Grey_Square.svg.png'),
-                    ),
-                  ),
+                      height: 150,
+                      width: 150,
+                      child: CircleAvatar(
+                        child: Image.asset(
+                          "assets/icons/image 22.png",
+                          fit: BoxFit.fitWidth,
+                        ),
+                        backgroundColor: Colors.white,
+                      )),
+                ),
+                const SizedBox(
+                  height: 100.0,
                 ),
                 Center(
                   child: SizedBox(
-                    width: 200,
+                    width: 250,
                     child: TextField(
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontFamily: 'Adamina',
+                      ),
                       controller: LoginIDcontroller,
                       decoration: const InputDecoration(
-                        hintText: 'LOGIN ID',
+                        hintText: 'Login Id',
                       ),
                     ),
                   ),
                 ),
                 Center(
                   child: SizedBox(
-                    width: 200,
+                    width: 250,
                     child: TextField(
+                      style: TextStyle(
+                        fontFamily: 'Adamina',
+                        fontSize: 20,
+                      ),
                       controller: Passwordcontroller,
                       decoration: InputDecoration(
                         hintText: 'Password',
@@ -68,16 +82,26 @@ class _MyHomePageState2 extends State<ContentBox> {
                   ),
                 ),
                 Row(
-                  children: const [
-                    SizedBox(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    const SizedBox(
                       width: 150,
                     ),
                     TextButton(
-                      onPressed: null,
-                      child: Text(
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => ResetScreen()),
+                        );
+                      },
+                      child: const Text(
                         'Forgot Password?',
                         style: TextStyle(
-                          color: Colors.pink,
+                          color: Colors.black,
+                          fontWeight: FontWeight.w300,
+                          //fontFamily: 'GreatVibes',
+                          //fontSize: 25,
                           decoration: TextDecoration.underline,
                         ),
                       ),
@@ -88,7 +112,7 @@ class _MyHomePageState2 extends State<ContentBox> {
                   height: 50,
                 ),
                 SizedBox(
-                  height: 40,
+                  height: 60,
                   width: 200,
                   child: ElevatedButton(
                     style: ButtonStyle(
@@ -118,35 +142,10 @@ class _MyHomePageState2 extends State<ContentBox> {
                     child: const Text(
                       'Login',
                       style: TextStyle(
-                        fontSize: 15,
+                        fontSize: 35,
                         color: Colors.black,
-                      ),
-                    ),
-                  ),
-                ),
-                const Padding(
-                  padding: EdgeInsets.all(10),
-                  child: Text('Or'),
-                ),
-                SizedBox(
-                  height: 40,
-                  width: 200,
-                  child: ElevatedButton(
-                    style: ButtonStyle(
-                      backgroundColor:
-                          MaterialStateProperty.all<Color>(Colors.white),
-                      shape: MaterialStateProperty.all<RoundedRectangleBorder>(
-                        RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(40),
-                        ),
-                      ),
-                    ),
-                    onPressed: null,
-                    child: const Text(
-                      'Login with Google',
-                      style: TextStyle(
-                        fontSize: 15,
-                        color: Colors.black,
+                        fontFamily: 'Adamina',
+                        //fontWeight: FontWeight.bold,
                       ),
                     ),
                   ),
@@ -164,7 +163,10 @@ class _MyHomePageState2 extends State<ContentBox> {
                   child: const Text(
                     "Don't have an account? Create one",
                     style: TextStyle(
-                      color: Colors.pink,
+                      color: Colors.black,
+                      fontWeight: FontWeight.bold,
+                      fontFamily: 'Allura',
+                      fontSize: 25,
                       decoration: TextDecoration.underline,
                     ),
                   ),

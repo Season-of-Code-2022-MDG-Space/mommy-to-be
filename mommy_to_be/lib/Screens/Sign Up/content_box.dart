@@ -24,12 +24,12 @@ class MyHomePageState extends State<Content> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.blueGrey[200],
+      backgroundColor: Colors.deepPurpleAccent[100],
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Container(
-              height: 15,
+            SizedBox(
+              height: 35,
             ),
             Row(
               children: [
@@ -61,149 +61,153 @@ class MyHomePageState extends State<Content> {
                     ),
                   ),
                 ),
-                Container(),
               ],
             ),
-            SafeArea(
-              child: Padding(
-                padding: EdgeInsets.all(20),
-                child: Column(children: [
-                  const Center(
-                    child: Text(
-                      'Sign Up',
-                      textScaleFactor: 4,
+            Padding(
+              padding: EdgeInsets.all(20),
+              child: Column(children: [
+                const Center(
+                  child: Text(
+                    'Sign Up',
+                    textScaleFactor: 4,
+                    style: TextStyle(
+                      fontFamily: 'Cookie',
                     ),
                   ),
-                  Container(
-                    height: 15,
-                  ),
-                  TextField(
-                    controller: Usernamecontroller,
-                    style: TextStyle(fontSize: 20, height: 1),
-                    decoration: InputDecoration(
-                      hintText: 'Username',
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(50),
-                      ),
-                      fillColor: Colors.blueGrey[100],
-                      filled: true,
+                ),
+                SizedBox(
+                  height: 35,
+                ),
+                TextField(
+                  controller: Usernamecontroller,
+                  style: TextStyle(
+                      fontFamily: 'Pacifico', fontSize: 20, height: 1),
+                  decoration: InputDecoration(
+                    hintText: 'Username',
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(50),
                     ),
+                    fillColor: Colors.deepPurple[200],
+                    filled: true,
                   ),
-                  Container(
-                    height: 15,
-                  ),
-                  TextField(
-                    controller: Namecontroller,
-                    style: const TextStyle(fontSize: 20, height: 1),
-                    decoration: InputDecoration(
-                      hintText: 'Name',
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(50),
-                      ),
-                      fillColor: Colors.blueGrey[100],
-                      filled: true,
+                ),
+                Container(
+                  height: 15,
+                ),
+                TextField(
+                  controller: Namecontroller,
+                  style: const TextStyle(
+                      fontFamily: 'Pacifico', fontSize: 20, height: 1),
+                  decoration: InputDecoration(
+                    hintText: 'Name',
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(50),
                     ),
+                    fillColor: Colors.deepPurple[200],
+                    filled: true,
                   ),
-                  Container(
-                    height: 15,
-                  ),
-                  TextField(
-                    controller: Emailcontroller,
-                    style: const TextStyle(fontSize: 20, height: 1),
-                    decoration: InputDecoration(
-                      hintText: 'Email',
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(50),
-                      ),
-                      fillColor: Colors.blueGrey[100],
-                      filled: true,
+                ),
+                Container(
+                  height: 15,
+                ),
+                TextField(
+                  controller: Emailcontroller,
+                  style: const TextStyle(
+                      fontFamily: 'Pacifico', fontSize: 20, height: 1),
+                  decoration: InputDecoration(
+                    hintText: 'Email',
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(50),
                     ),
+                    fillColor: Colors.deepPurple[200],
+                    filled: true,
                   ),
-                  Container(
-                    height: 15,
+                ),
+                Container(
+                  height: 15,
+                ),
+                TextField(
+                  controller: Passwordcontroller,
+                  style: const TextStyle(
+                    fontFamily: 'Pacifico',
+                    fontSize: 20,
+                    height: 1,
                   ),
-                  TextField(
-                    controller: Passwordcontroller,
-                    style: const TextStyle(
-                      fontSize: 20,
-                      height: 1,
+                  decoration: InputDecoration(
+                    hintText: 'Password',
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(50),
                     ),
-                    decoration: InputDecoration(
-                      hintText: 'Password',
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(50),
-                      ),
-                      fillColor: Colors.blueGrey[100],
-                      filled: true,
-                      suffixIcon: IconButton(
-                          icon: Icon(Icons.remove_red_eye),
-                          onPressed: () {
-                            setState(() {
-                              eyepressed = !eyepressed;
-                            });
-                          }),
+                    fillColor: Colors.deepPurple[200],
+                    filled: true,
+                    suffixIcon: IconButton(
+                        icon: Icon(Icons.remove_red_eye),
+                        onPressed: () {
+                          setState(() {
+                            eyepressed = !eyepressed;
+                          });
+                        }),
+                  ),
+                  obscureText: eyepressed,
+                ),
+                Container(
+                  height: 15,
+                ),
+                TextField(
+                  controller: Phonenocontroller,
+                  style: TextStyle(
+                      fontFamily: 'Pacifico', fontSize: 20, height: 1),
+                  decoration: InputDecoration(
+                    hintText: 'Phone No.',
+                    border: OutlineInputBorder(
+                      borderRadius: BorderRadius.circular(50),
                     ),
-                    obscureText: eyepressed,
+                    fillColor: Colors.deepPurple[200],
+                    filled: true,
                   ),
-                  Container(
-                    height: 15,
-                  ),
-                  TextField(
-                    controller: Phonenocontroller,
-                    style: TextStyle(fontSize: 20, height: 1),
-                    decoration: InputDecoration(
-                      hintText: 'Phone No.',
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(50),
-                      ),
-                      fillColor: Colors.blueGrey[100],
-                      filled: true,
-                    ),
-                  ),
-                  Container(
-                    height: 15,
-                  ),
-                  SizedBox(
-                    height: 50,
-                    width: 200,
-                    child: ElevatedButton(
-                      style: ButtonStyle(
-                        backgroundColor:
-                            MaterialStateProperty.all<Color>(Colors.white),
-                        shape:
-                            MaterialStateProperty.all<RoundedRectangleBorder>(
-                          RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(40),
-                          ),
-                        ),
-                      ),
-                      onPressed: () {
-                        FirebaseAuth.instance
-                            .createUserWithEmailAndPassword(
-                                email: Emailcontroller.text,
-                                password: Passwordcontroller.text)
-                            .then((value) {
-                          print("Created New Account");
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => DisplayPage()),
-                          );
-                        }).onError((error, stackTrace) {
-                          print("Error ${error.toString()}");
-                        });
-                      },
-                      child: const Text(
-                        'Submit',
-                        style: TextStyle(
-                          fontSize: 30,
-                          color: Colors.black,
+                ),
+                SizedBox(
+                  height: 35,
+                ),
+                SizedBox(
+                  height: 50,
+                  width: 200,
+                  child: ElevatedButton(
+                    style: ButtonStyle(
+                      backgroundColor:
+                          MaterialStateProperty.all<Color>(Colors.white),
+                      shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+                        RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(40),
                         ),
                       ),
                     ),
+                    onPressed: () {
+                      FirebaseAuth.instance
+                          .createUserWithEmailAndPassword(
+                              email: Emailcontroller.text,
+                              password: Passwordcontroller.text)
+                          .then((value) {
+                        print("Created New Account");
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => DisplayPage()),
+                        );
+                      }).onError((error, stackTrace) {
+                        print("Error ${error.toString()}");
+                      });
+                    },
+                    child: const Text(
+                      'Submit',
+                      style: TextStyle(
+                        fontSize: 30,
+                        color: Colors.black,
+                      ),
+                    ),
                   ),
-                ]),
-              ),
+                ),
+              ]),
             ),
           ],
         ),

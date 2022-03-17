@@ -9,16 +9,14 @@ class _MyHomePageState3 extends State<DisplayPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(206, 173, 58, 208),
+      backgroundColor: Colors.deepPurpleAccent[100],
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const SizedBox(
-            height: 100,
-          ),
           Center(
             child: SizedBox(
-              height: 200,
-              width: 300,
+              height: 300,
+              width: 350,
               child: ElevatedButton(
                 style: ButtonStyle(
                   backgroundColor:
@@ -35,7 +33,8 @@ class _MyHomePageState3 extends State<DisplayPage> {
                     Text(
                       ' Dear Mother,\n Thankyou for registering \n on our app!\n We hope that you have an \n amazing experience with \n "MOMMY-TO-BE !"',
                       style: TextStyle(
-                        fontSize: 15,
+                        fontSize: 25,
+                        fontFamily: 'Akaya_Telivigala',
                         color: Colors.black,
                       ),
                     ),
