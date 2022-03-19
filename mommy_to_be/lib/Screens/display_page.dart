@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mommy_to_be/Screens/Alarm/alarm_screen.dart';
 
 class DisplayPage extends StatefulWidget {
   @override
@@ -60,7 +61,14 @@ class _MyHomePageState3 extends State<DisplayPage> {
                     ),
                   ),
                 ),
-                onPressed: null,
+                onPressed: () {
+                  Navigator.of(context);
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => AlarmPage(),
+                      ));
+                },
                 child: const Text(
                   'NEXT',
                   style: TextStyle(

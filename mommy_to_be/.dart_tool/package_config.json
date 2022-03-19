@@ -39,13 +39,13 @@
     },
     {
       "name": "convert",
-      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/convert-2.1.1",
+      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/convert-2.1.0",
       "packageUri": "lib/",
       "languageVersion": "1.17"
     },
     {
       "name": "cupertino_icons",
-      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.4",
+      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-1.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -98,8 +98,20 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_alarm_clock",
+      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_alarm_clock-0.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_lints",
-      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-1.0.4",
+      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_staggered_grid_view",
+      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_staggered_grid_view-0.4.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -129,13 +141,13 @@
     },
     {
       "name": "google_sign_in_platform_interface",
-      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_platform_interface-2.1.2",
+      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_platform_interface-2.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "google_sign_in_web",
-      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.10.0+5",
+      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/google_sign_in_web-0.10.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -159,7 +171,7 @@
     },
     {
       "name": "lints",
-      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/lints-1.0.1",
+      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/lints-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -195,7 +207,7 @@
     },
     {
       "name": "path_drawing",
-      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/path_drawing-0.4.1+1",
+      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/path_drawing-0.4.1",
       "packageUri": "lib/",
       "languageVersion": "1.19"
     },
@@ -207,13 +219,13 @@
     },
     {
       "name": "petitparser",
-      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-3.1.0",
+      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-2.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.7"
+      "languageVersion": "2.0"
     },
     {
       "name": "plugin_platform_interface",
-      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-2.1.2",
+      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/plugin_platform_interface-2.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -225,7 +237,7 @@
     },
     {
       "name": "quiver",
-      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/quiver-3.0.1+1",
+      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/quiver-3.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -238,6 +250,18 @@
     {
       "name": "source_span",
       "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.8.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "sqflite",
+      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-2.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "sqflite_common",
+      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite_common-2.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -256,6 +280,12 @@
     {
       "name": "string_scanner",
       "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "synchronized",
+      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/synchronized-3.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -285,9 +315,9 @@
     },
     {
       "name": "xml",
-      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/xml-3.7.0",
+      "rootUri": "file:///Users/kartikaggarwal/App_Project/flutter/.pub-cache/hosted/pub.dartlang.org/xml-3.3.1",
       "packageUri": "lib/",
-      "languageVersion": "2.7"
+      "languageVersion": "2.0"
     },
     {
       "name": "mommy_to_be",
@@ -296,7 +326,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2022-03-17T10:50:21.313360Z",
+  "generated": "2022-03-19T15:34:36.128732Z",
   "generator": "pub",
   "generatorVersion": "2.16.1"
 }
