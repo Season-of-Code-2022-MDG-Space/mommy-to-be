@@ -31,9 +31,9 @@ public final class GeneratedPluginRegistrant {
       Log.e(TAG, "Error registering plugin flutter_alarm_clock, tech.sebastjanmevlja.flutter_alarm_clock.FlutterAlarmClockPlugin", e);
     }
     try {
-      flutterEngine.getPlugins().add(new io.flutter.plugins.googlesignin.GoogleSignInPlugin());
+      flutterEngine.getPlugins().add(new io.flutter.plugins.sharedpreferences.SharedPreferencesPlugin());
     } catch(Exception e) {
-      Log.e(TAG, "Error registering plugin google_sign_in, io.flutter.plugins.googlesignin.GoogleSignInPlugin", e);
+      Log.e(TAG, "Error registering plugin shared_preferences, io.flutter.plugins.sharedpreferences.SharedPreferencesPlugin", e);
     }
     try {
       flutterEngine.getPlugins().add(new com.tekartik.sqflite.SqflitePlugin());

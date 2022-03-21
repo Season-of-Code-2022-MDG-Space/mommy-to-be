@@ -13,12 +13,10 @@ MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/kartikagga
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/c0fc708caaa4589bc487805750ad8901/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:25:5-38:19
 MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:25:5-38:19
-MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/850ef13ec2cd7a7ea527ff79a705c18a/jetified-play-services-auth-20.0.1/AndroidManifest.xml:22:5-38:19
-MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/850ef13ec2cd7a7ea527ff79a705c18a/jetified-play-services-auth-20.0.1/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/b9f3ea16de2ef1ca92c5362ec604ec66/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/b9f3ea16de2ef1ca92c5362ec604ec66/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/6627ebe7ef94065a47e7e8e9d66c6a9d/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/6627ebe7ef94065a47e7e8e9d66c6a9d/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/792b83f7598e217a9b6c594e7c245460/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/792b83f7598e217a9b6c594e7c245460/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/4a1e8147c3db656939cfc830651ce63e/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
@@ -40,26 +38,24 @@ MERGED from /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/android/ap
 MERGED from [:firebase_auth] /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/build/firebase_auth/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:flutter_alarm_clock] /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/build/flutter_alarm_clock/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:shared_preferences] /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:sqflite] /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:google_sign_in] /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/a3b86b42fafb2019c6d99a912992ce19/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:17:1-23:12
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:17:1-33:12
 MERGED from [com.google.firebase:firebase-auth:21.0.2] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/ea9dd2db373322964c942699ea3d16dd/jetified-firebase-auth-21.0.2/AndroidManifest.xml:17:1-73:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/c0fc708caaa4589bc487805750ad8901/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:15:1-40:12
-MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/850ef13ec2cd7a7ea527ff79a705c18a/jetified-play-services-auth-20.0.1/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/1579bd1641f52804fc09caeaeac50d9c/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/b9f3ea16de2ef1ca92c5362ec604ec66/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/99918af318d4ffe919410f410117c4c7/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/2791dd4c86ddc79eabd51101f24ba2c0/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:2:1-7:12
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/6627ebe7ef94065a47e7e8e9d66c6a9d/jetified-play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/792b83f7598e217a9b6c594e7c245460/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/4a1e8147c3db656939cfc830651ce63e/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.fragment:fragment:1.1.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/fcfa9c07e15be26ded9661d0cde5236d/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.browser:browser:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/ec20f7242759cfe0d6237ced59ef1a02/browser-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/1aaca2244d3852aa3051f6ec5e863d3f/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/b4f7568fea2f511d767829dd5b644d2f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/55efa78fe7dd5340c3b16a9e76ef0926/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/e76984245f77d39c38f4d76388592dc0/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/b4f7568fea2f511d767829dd5b644d2f/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/d163e2127d8958c9002b4147c4b31dec/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/5cf36af8c665794dec2262fc6fa16b40/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/ce3fae280668b0503a293c526ec9328a/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -110,10 +106,10 @@ MERGED from [:firebase_core] /Users/kartikaggarwal/Desktop/Programming/Git/mommy
 MERGED from [:firebase_core] /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_alarm_clock] /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/build/flutter_alarm_clock/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:flutter_alarm_clock] /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/build/flutter_alarm_clock/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/build/shared_preferences/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:sqflite] /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:sqflite] /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/build/sqflite/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:google_sign_in] /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:google_sign_in] /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/a3b86b42fafb2019c6d99a912992ce19/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window-java:1.0.0-beta04] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/a3b86b42fafb2019c6d99a912992ce19/jetified-window-java-1.0.0-beta04/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.window:window:1.0.0-beta04] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/cea45e25bbe77c9713c39e234ccfd7bd/jetified-window-1.0.0-beta04/AndroidManifest.xml:20:5-22:41
@@ -124,16 +120,12 @@ MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/kartikagga
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/c0fc708caaa4589bc487805750ad8901/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-common:20.1.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/850ef13ec2cd7a7ea527ff79a705c18a/jetified-play-services-auth-20.0.1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:20.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/850ef13ec2cd7a7ea527ff79a705c18a/jetified-play-services-auth-20.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/1579bd1641f52804fc09caeaeac50d9c/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/1579bd1641f52804fc09caeaeac50d9c/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/b9f3ea16de2ef1ca92c5362ec604ec66/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/b9f3ea16de2ef1ca92c5362ec604ec66/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/99918af318d4ffe919410f410117c4c7/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/99918af318d4ffe919410f410117c4c7/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/2791dd4c86ddc79eabd51101f24ba2c0/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/2791dd4c86ddc79eabd51101f24ba2c0/jetified-play-services-auth-base-18.0.1/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/6627ebe7ef94065a47e7e8e9d66c6a9d/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/6627ebe7ef94065a47e7e8e9d66c6a9d/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/792b83f7598e217a9b6c594e7c245460/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/792b83f7598e217a9b6c594e7c245460/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/4a1e8147c3db656939cfc830651ce63e/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
@@ -144,12 +136,12 @@ MERGED from [androidx.browser:browser:1.0.0] /Users/kartikaggarwal/.gradle/cache
 MERGED from [androidx.browser:browser:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/ec20f7242759cfe0d6237ced59ef1a02/browser-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/1aaca2244d3852aa3051f6ec5e863d3f/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/1aaca2244d3852aa3051f6ec5e863d3f/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/b4f7568fea2f511d767829dd5b644d2f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/b4f7568fea2f511d767829dd5b644d2f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/55efa78fe7dd5340c3b16a9e76ef0926/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/55efa78fe7dd5340c3b16a9e76ef0926/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/e76984245f77d39c38f4d76388592dc0/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/e76984245f77d39c38f4d76388592dc0/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/b4f7568fea2f511d767829dd5b644d2f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/b4f7568fea2f511d767829dd5b644d2f/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/d163e2127d8958c9002b4147c4b31dec/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/d163e2127d8958c9002b4147c4b31dec/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/5cf36af8c665794dec2262fc6fa16b40/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -206,8 +198,6 @@ INJECTED from /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/android/
 		INJECTED from /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/android/app/src/debug/AndroidManifest.xml:6:5-66
-MERGED from [:google_sign_in] /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
-MERGED from [:google_sign_in] /Users/kartikaggarwal/Desktop/Programming/Git/mommy_to_be/build/google_sign_in/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.2] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/ea9dd2db373322964c942699ea3d16dd/jetified-firebase-auth-21.0.2/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.2] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/ea9dd2db373322964c942699ea3d16dd/jetified-firebase-auth-21.0.2/AndroidManifest.xml:23:5-67
 	android:name
@@ -326,34 +316,14 @@ ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/kartikaggarwal/.g
 		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-common:20.1.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/b25e52f5739b5665d39d607baa2467f6/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
-activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/850ef13ec2cd7a7ea527ff79a705c18a/jetified-play-services-auth-20.0.1/AndroidManifest.xml:23:9-27:75
-	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/850ef13ec2cd7a7ea527ff79a705c18a/jetified-play-services-auth-20.0.1/AndroidManifest.xml:25:13-46
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/850ef13ec2cd7a7ea527ff79a705c18a/jetified-play-services-auth-20.0.1/AndroidManifest.xml:26:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/850ef13ec2cd7a7ea527ff79a705c18a/jetified-play-services-auth-20.0.1/AndroidManifest.xml:27:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/850ef13ec2cd7a7ea527ff79a705c18a/jetified-play-services-auth-20.0.1/AndroidManifest.xml:24:13-93
-service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/850ef13ec2cd7a7ea527ff79a705c18a/jetified-play-services-auth-20.0.1/AndroidManifest.xml:33:9-37:51
-	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/850ef13ec2cd7a7ea527ff79a705c18a/jetified-play-services-auth-20.0.1/AndroidManifest.xml:35:13-36
-	android:visibleToInstantApps
-		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/850ef13ec2cd7a7ea527ff79a705c18a/jetified-play-services-auth-20.0.1/AndroidManifest.xml:37:13-48
-	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/850ef13ec2cd7a7ea527ff79a705c18a/jetified-play-services-auth-20.0.1/AndroidManifest.xml:36:13-107
-	android:name
-		ADDED from [com.google.android.gms:play-services-auth:20.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/850ef13ec2cd7a7ea527ff79a705c18a/jetified-play-services-auth-20.0.1/AndroidManifest.xml:34:13-89
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/6627ebe7ef94065a47e7e8e9d66c6a9d/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/6627ebe7ef94065a47e7e8e9d66c6a9d/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/6627ebe7ef94065a47e7e8e9d66c6a9d/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/1c0769389455a4c14b7a50bc2530cb4a/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/6627ebe7ef94065a47e7e8e9d66c6a9d/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:18.0.0] /Users/kartikaggarwal/.gradle/caches/transforms-2/files-2.1/4a1e8147c3db656939cfc830651ce63e/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
 	android:value

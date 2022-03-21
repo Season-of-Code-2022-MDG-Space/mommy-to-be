@@ -3,6 +3,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:mommy_to_be/Screens/Alarm/alarm_screen.dart';
+import 'package:mommy_to_be/Screens/Calender/calendar_config.dart';
 import 'package:mommy_to_be/Screens/Login/login_screen.dart';
 
 import '../Diary/diary_page.dart';
@@ -87,7 +88,13 @@ class Calenderpage extends StatelessWidget {
                           "assets/images/image 11.png",
                         ),
                       ),
-                      onPressed: null,
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => DynamicEvent()),
+                        );
+                      },
                     ),
                     FlatButton(
                       shape: CircleBorder(),
